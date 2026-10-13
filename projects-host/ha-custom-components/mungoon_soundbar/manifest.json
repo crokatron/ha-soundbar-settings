@@ -1,0 +1,15 @@
+{
+  "domain": "mungoon_soundbar",
+  "name": "Mungoon Soundbar Settings",
+  "version": "1.0.0",
+  "config_flow": true,
+  "dependencies": [
+    "smartthings"
+  ],
+  "requirements": [],
+  "codeowners": [
+    "@crokatron"
+  ],
+  "iot_class": "cloud_polling",
+  "documentation": "https://github.com/crokatron/nas-projects-community/blob/main/docs/soundbar-settings.md"
+}

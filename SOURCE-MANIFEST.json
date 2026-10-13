@@ -1,0 +1,14 @@
+{
+  "projects-host/ha-custom-components/mungoon_soundbar/__init__.py": "488bec729791e8273aa6564e0e17895258189779ed9e2dbc626bd53ac3155c87",
+  "projects-host/ha-custom-components/mungoon_soundbar/config_flow.py": "55e3f96036effda5d5e79059dc117e4bf2f30d4d0b9f23cfd148dfbcdeecf4dd",
+  "projects-host/ha-custom-components/mungoon_soundbar/controls.py": "9d2ec60ddeb0d7388a2640a638f654d4eca1cead675f077e176a3f36dcab6d4e",
+  "projects-host/ha-custom-components/mungoon_soundbar/entity.py": "b51a970f9dc25c6fd4d41fd39b88f340501d336cd56ea3f56ef01ccbd20efad2",
+  "projects-host/ha-custom-components/mungoon_soundbar/manifest.json": "490e078f7d3ac37e14ed0c0724cc24faf2f4461015e97aecb63a98eb26168cd9",
+  "projects-host/ha-custom-components/mungoon_soundbar/number.py": "fa662f70d41baef9f091c3f0beec463dd07fc919c89ada525d6fa2ea5bfe356d",
+  "projects-host/ha-custom-components/mungoon_soundbar/README.md": "19a6e923c62763a189a932746c2f39b2d1156e0b3c42b53f275ce53159b1b4cf",
+  "projects-host/ha-custom-components/mungoon_soundbar/select.py": "78999b80a194775057f3f0995991074e65be3dd69fb8b9c83bf3edf5f09624e6",
+  "projects-host/ha-custom-components/mungoon_soundbar/strings.json": "50fa8e8481d90b82d5a91265d694cb3ca0a6e6f75aee7432e347500d4d1e5d47",
+  "projects-host/ha-custom-components/mungoon_soundbar/switch.py": "da64c9b061070ebc37fe65dceb5fa9bb01cb8986a424da2fb9281625a64070ae",
+  "projects-host/ha-custom-components/mungoon_soundbar/translations/en.json": "50fa8e8481d90b82d5a91265d694cb3ca0a6e6f75aee7432e347500d4d1e5d47",
+  "tools/test_soundbar.py": "b0c0d7755d6a0a65b12d65ad6361f13411f1084c94b2df33aa24ebd604981f9c"
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "ha-soundbar-settings",
+  "title": "HA Soundbar Settings",
+  "summary": "Expose selected advanced Samsung soundbar settings as native Home Assistant entities. It reuses the official SmartThings integration’s connection instead of requiring another saved token. Developed against the HW-Q990F, it complements ordinary media-player controls rather than replacing the soundbar’s whole interface.",
+  "features": [
+    [
+      "Speaker levels",
+      "Bass/subwoofer, centre and rear levels: integer sliders from −6 to +6.",
+      "number entities"
+    ],
+    [
+      "Sound mode",
+      "Standard, Surround, Game Pro and Adaptive Sound.",
+      "select entity"
+    ],
+    [
+      "Audio switches",
+      "Bass boost, night mode and voice amplifier.",
+      "switch entities"
+    ],
+    [
+      "Existing connection",
+      "Use the already configured HA SmartThings OAuth session.",
+      "Cloud dependency"
+    ],
+    [
+      "Single-setting commands",
+      "Validate and send one setting per command; no automatic write retry.",
+      "Runtime behaviour"
+    ],
+    [
+      "Assumed state",
+      "Show unknown initially and retain the last accepted setting; this is not physical readback.",
+      "Display limitation"
+    ]
+  ],
+  "workflows": [
+    [
+      "Find the controls",
+      [
+        "First confirm the soundbar already appears in the official SmartThings integration in HA.",
+        "Add Mungoon Soundbar Settings, choose the detected soundbar, and open its entities in Devices & services.",
+        "Add the relevant number, switch and select entities to a dashboard or use their entity controls directly. The integration itself does not provide a separate custom dashboard."
+      ]
+    ],
+    [
+      "Adjust dialogue without changing everything",
+      [
+        "Choose one control to test, such as Center speaker level. Note your current physical setting independently if you will want to revert.",
+        "Move the slider by one whole-number step and listen for the response. Use Voice amplifier only if that is the intended effect.",
+        "Avoid changing several controls at once while diagnosing compatibility. A cloud response saying COMPLETED means the request was accepted, not that the setting was measured on the hardware."
+      ]
+    ],
+    [
+      "Create an evening audio action",
+      [
+        "Use HA’s normal automation editor and select the Night mode entity. Add the intended on/off action at your chosen trigger.",
+        "Optionally set Sound mode using the exact available option labels. Keep this separate from power/volume actions on the ordinary media player.",
+        "Test once while you can hear the soundbar. Since writes are not automatically retried, inspect HA errors before repeating a failed command."
+      ]
+    ],
+    [
+      "Interpret unknown and assumed readings",
+      [
+        "Unknown after installation does not mean the soundbar is disconnected: the tested device does not provide advanced-setting readback.",
+        "A value shown after an accepted command is the component’s remembered value. A later change on the remote or Samsung app can leave it out of date.",
+        "Use the physical device to confirm actual state when it matters. Full graphic equalizer bands are not provided by this component."
+      ]
+    ]
+  ],
+  "limits": "Only the supported command payloads are promised. Other Samsung models require testing. Three command tests passed previously; no sound settings or physical-device tests were changed during this documentation work."
+}

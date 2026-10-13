@@ -1,0 +1,39 @@
+[
+  {
+    "boxes": [
+      {
+        "h": 486.1875,
+        "selector": "#controls",
+        "text": "Set levels, a sound mode or night mode in this example.",
+        "title": "Choose an audio setting",
+        "w": 308,
+        "x": 294,
+        "y": 281.515625
+      },
+      {
+        "h": 59.1875,
+        "selector": "#send",
+        "text": "The simulated cloud accepts the setting without contacting a soundbar.",
+        "title": "Send a dummy command",
+        "w": 260,
+        "x": 318,
+        "y": 674.515625
+      },
+      {
+        "h": 532.9375,
+        "selector": "#result",
+        "text": "Accepted values are remembered values, not physical readback.",
+        "title": "Read assumed state correctly",
+        "w": 517.078125,
+        "x": 1228.90625,
+        "y": 281.515625
+      }
+    ],
+    "height": 1408,
+    "width": 2055,
+    "key": "simulation",
+    "title": "Try the working offline example",
+    "caption": "Screenshot of this project’s interactive demo. Side-by-side services are explicitly simulated.",
+    "cropHeight": 855.453125
+  }
+]
