@@ -56,3 +56,7 @@ Only the supported command payloads are promised. Other Samsung models require t
 ## Licence and sharing
 
 MIT applies to original project contributions. Bundled/upstream software and assets retain their own terms; see [third-party notes](THIRD-PARTY.md). Keep this repository private until its own [release checklist](RELEASE-CHECKLIST.md) is complete and the owner authorises publication.
+
+## Install the integration
+
+Follow the retained [installation and setup guide](docs/soundbar-settings.md), then use the numbered screenshot manual above to understand the workflow.
