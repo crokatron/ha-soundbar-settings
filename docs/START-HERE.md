@@ -12,4 +12,4 @@ Additional Samsung soundbar levels, mode and switches through the existing HA Sm
 
 **Next maintainer action:** Retest on the actual Q990F and installed HA release, one setting at a time. Test other models before advertising support; check SmartThings discovery/capabilities before changing sound settings.
 
-**Status:** private upload verified on 14 October 2026. These guides accompany the private source package. Live runtime, data backups and full recovery were not retested. Public release needs separate approval.
+**Status:** private upload verified on 14 October 2026. These guides accompany the source package. Live runtime, data backups and full recovery were not retested. Public sharing was authorised on 14 October 2026; the NAS backup remains private.
