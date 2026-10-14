@@ -1,5 +1,7 @@
 # HA Soundbar Settings
 
+**Maintaining this project? [Start here](docs/START-HERE.md) · [Detailed handover](docs/HANDOVER.md)**
+
 Expose selected advanced Samsung soundbar settings as native Home Assistant entities. It reuses the official SmartThings integration’s connection instead of requiring another saved token. Developed against the HW-Q990F, it complements ordinary media-player controls rather than replacing the soundbar’s whole interface.
 
 **Private preview · not published.**
